@@ -1,0 +1,37 @@
+#resumePic {
+  display: flex;
+  height: 25rem;
+  margin: 5rem;
+}
+#resumeCon {
+  display: flex;
+  justify-content: center;
+}
+#resumePicStyle {
+  display: flex;
+  justify-content: center;
+}
+#resumeTextBox {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 183.5%;
+  justify-content: center;
+}
+#resumeTitle {
+  display: flex;
+  justify-content: center;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 150%;
+}
+#resumeContainer {
+  display: flex;
+  margin-top: 4.5rem;
+}
+.btn-primary{
+    background-color: #3c579b !important;
+}

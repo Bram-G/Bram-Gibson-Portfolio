@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#portDiv {
+  margin-top: 2rem;
+  width: 80%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* portCard styling */
+.portPage {
+  justify-content: center;
+  display: flex;
+}
+.card {
+  align-items: center;
+  margin: 5px;
+  width: 33%;
+}
+
+#portCard {
+  background-color: #ffffff;
+}
+#title {
+  line-height: 2.5rem;
+  font-size: 1.3rem;
+  width: 20rem;
+  color: #464646;
+  font-weight: 700;
+  font-style: normal;
+}
+#desc {
+  font-size: .97rem;
+  width: 20rem;
+  color: #aaaaaa;
+}
+#lang {
+    line-height: 1px;
+  font-size: 0.8rem;
+  width: 20rem;
+  color: #aaaaaa;
+}
+#textBox {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+#portImg {
+  display: flex;
+  height: 20rem;
+  width: 20rem;
+  transition: all .3s ease-in-out ;
+}
+#portImg:hover{
+  transform: scale(1.02);
+}
