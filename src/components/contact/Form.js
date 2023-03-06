@@ -7,7 +7,7 @@ function BootstrapForm() {
     <Form id="form">
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Name</Form.Label>
-        <Form.Control type="text" placeholder="Enter Name" />
+        <Form.Control type="name" placeholder="Enter Name" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>

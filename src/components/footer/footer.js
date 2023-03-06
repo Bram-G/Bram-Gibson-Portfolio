@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-import gitHub from "./gitHub.png"
-import linkedIn from "./linkedIn.png"
-import stackOverflow from "./stackOverflow.png"
+import gitHub from "./assets/gitHub.png"
+import linkedIn from "./assets/linkedIn.png"
+import stackOverflow from "./assets/stackOverflow.png"
 
 
 const Footer = () => {
