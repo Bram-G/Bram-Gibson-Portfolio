@@ -15,7 +15,7 @@ function BootstrapForm() {
       </Form.Group>
       <Form.Label>Message</Form.Label>
       <InputGroup>
-        <Form.Control as="textarea" />
+        <Form.Control as="textarea" placeholder="Message" />
       </InputGroup>
       <Button className="formButton"variant="primary" type="submit">
         Submit
