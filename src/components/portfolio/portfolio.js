@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import VS from "./assets/VS.png";
 import BGP from "./assets/BGP.png";
 import RMG from "./assets/RMG.png";
