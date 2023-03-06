@@ -1,0 +1,44 @@
+#contactCon {
+  display: flex;
+  justify-content: center;
+}
+#contactImg {
+    display: flex;
+    height: 25rem;
+    margin: 5rem;
+  }
+  #contactImgStyle {
+    display: flex;
+    justify-content: center;
+  }
+  #contactTextBox {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 183.5%;
+    justify-content: center;
+  }
+  #contactTitle {
+    display: flex;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.7rem;
+    line-height: 130%;
+  }
+  #contactContainer {
+    display: flex;
+    margin-top: 4.5rem;
+  }
+  #contactSubTitle{
+    display: flex;
+    width: 50%;
+    display: inline-block;
+  }
+  #form{
+    line-height: .5rem;
+  }
+  .formButton{
+    margin-top: 1.7rem;
+  }

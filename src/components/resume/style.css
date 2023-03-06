@@ -1,11 +1,11 @@
+#resumeCon {
+  display: flex;
+  justify-content: center;
+}
 #resumePic {
   display: flex;
   height: 25rem;
   margin: 5rem;
-}
-#resumeCon {
-  display: flex;
-  justify-content: center;
 }
 #resumePicStyle {
   display: flex;
