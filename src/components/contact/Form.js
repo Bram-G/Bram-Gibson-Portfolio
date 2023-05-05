@@ -14,7 +14,14 @@ function BootstrapForm() {
     e.preventDefault();
     // console.log(toSend)
     send("service_ifk7q91", "template_9yvp0sj", toSend, "fl_Rc0XQT4ThemV1h");
-    alert(`Thank you for your message, ${toSend.from_name}! I will get back to you as soon as possible`)
+    alert(
+      `Thank you for your message, ${toSend.from_name}! I will get back to you as soon as possible`
+    );
+    setToSend({
+      from_name: "",
+      from_email: "",
+      message: "",
+    });
   };
 
   const handleChange = (e) => {
