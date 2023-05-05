@@ -15,7 +15,7 @@ const Resume = () => {
             <p id="resumeTitle">Download My Resume</p>
             <p id="resumeTextBox">Use the button below to download my resume!</p>
             <a href={resume} download>
-            <button type="button" class="btn btn-lg btn-primary">Primary</button>
+            <button type="button" className="btn btn-lg btn-primary">Download</button>
           </a>
           </div>
         </div>

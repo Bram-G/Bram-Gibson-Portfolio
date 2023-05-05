@@ -2,8 +2,9 @@
 
 export default function PortCard(props) {
   return (
-    <div className="card d-flex col-4 mx-auto border-0">
-      <div id="portCard">
+    
+    <div  className="card d-flex col-4 mx-auto border-0">
+      <div id="portCard" >
         <a href={props.link} target="_blank" rel="noreferrer">
           <img id="portImg" src={props.src} alt={props.alt}></img>
         </a>

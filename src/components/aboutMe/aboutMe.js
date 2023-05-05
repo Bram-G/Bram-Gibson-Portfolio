@@ -11,20 +11,21 @@ const AboutMe = () => {
       <div>
         <div id="text" className="top-box container">
           <p>
-            I’m Bram, a <span id="spanBlue">junior software engineer</span>{" "}
-            currently taking a fullstack web development program through the
-            University of Washington.
+            I’m Bram, a <span id="spanBlue">FullStack Web Developer </span> that
+            recently graduated from the University of Washington's Coding
+            Bootcamp.
           </p>
         </div>
         <div className="container">
           <p id="textBottom">
-            This course helped build a solid foudation by covering in-demand
-            skills like HTML5, CSS3, JavaScript, jQuery, Express.js, React.js,
-            Node.js, progressive web apps, agile methodology, computer science,
-            database theory, MongoDB, MySQL and Git. On this website are
-            previous projects I have made as well as links to their respective
-            GitHub repos. Feel free to reach out to me with any questions or
-            inquiries!
+            During my bootcamp experience, I had the opportunity to learn and
+            work with a variety of languages, frameworks, and tools including
+            HTML, CSS, JavaScript, React, JQuery, Express.js, Node.js, and more.
+            I also gained experience in agile development methodologies and
+            collaborative project management, both of which I believe are
+            crucial skills for any developer. I'm eager to take the skills and
+            knowledge that I've gained and apply them to real-world projects.
+            Feel free to reach out to me with any questions or inquiries!
           </p>
         </div>
       </div>
