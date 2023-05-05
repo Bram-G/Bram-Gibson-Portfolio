@@ -1,7 +1,6 @@
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import InputGroup from "react-bootstrap/InputGroup";
-import React, { useState, setState } from "react";
+import React, { useState } from "react";
 import { send } from "emailjs-com";
 
 function BootstrapForm() {
