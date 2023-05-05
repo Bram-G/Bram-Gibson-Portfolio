@@ -16,7 +16,7 @@ const Portfolio = () => {
             alt: "Board Game Butler",
             link:"http://www.github.com/Bram-G/BGB",
             src: BGB,
-            desc: "FullStack application that allows users to search for board games and save them to their imported collection",
+            desc: "FullStack application that allows users to search for board games and save them to their imported collection.",
             languages:"JavaScript, React, SQL"
         },
         {
