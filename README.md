@@ -24,7 +24,7 @@ https://github.com/Bram-g
 
     
 ## INSTALLATION
-No installation needed, follow this link! https://main--bram-gibson-portfolio.netlify.app/ 
+No installation needed, follow this link!  https://bramgibson.dev/
 
     
 ## LICENSE
