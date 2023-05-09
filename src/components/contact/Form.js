@@ -11,6 +11,9 @@ function BootstrapForm() {
   });
 
   const onSubmit = (e) => {
+    if (toSend.message === ""){
+      return alert("Please enter a message")
+    }
     e.preventDefault();
     // console.log(toSend)
     send("service_ifk7q91", "template_9yvp0sj", toSend, "fl_Rc0XQT4ThemV1h");
