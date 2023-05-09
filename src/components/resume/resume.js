@@ -7,10 +7,10 @@ const Resume = () => {
   return (
     <div id="resumeCon">
       <div className="row container">
-        <div id="resumePicStyle" className="col-6">
+        <div id="resumePicStyle" className="col">
           <img id="resumePic" src={resumePic} alt="resume logo"></img>
         </div>
-        <div id="resumeContainer" className="col-6">
+        <div id="resumeContainer" className="col">
           <div id="resumeTextBox row-8">
             <p id="resumeTitle">Download My Resume</p>
             <p id="resumeTextBox">Use the button below to download my resume!</p>

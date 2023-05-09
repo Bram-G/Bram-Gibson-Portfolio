@@ -6,11 +6,11 @@ import BootstrapForm from "./Form";
 const Contact = () => {
   return (
     <div id="contactCon">
-      <div className="row container">
-        <div id="contactImgStyle" className="col-6">
+      <div className=" row container">
+        <div id="contactImgStyle" className="col">
           <img id="contactImg" src={contact} alt="contact logo"></img>
         </div>
-        <div id="contactContainer" className="col-6">
+        <div id="contactContainer" className="col">
         <div id="contactTextBox row-8">
             <p id="contactTitle">Get in Touch</p>
             <p id="contactTextBox"> Email me at: <a href="mailto: Bram.gibson@hotmail.com"> Bram.gibson@hotmail.com </a></p>

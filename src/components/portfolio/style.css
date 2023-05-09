@@ -45,7 +45,6 @@
 #textBox {
   flex-wrap: wrap;
   justify-content: center;
-  display: flex;
 }
 #portImg {
   display: flex;
@@ -55,4 +54,31 @@
 }
 #portImg:hover{
   transform: scale(1.02);
+}
+
+@media screen and (max-width:1290px) {
+  #portDiv {
+    width: 100%;
+  }
+  
+}
+@media  screen and (max-width:1050px) {
+  #portDiv{
+    flex-direction: column;
+  }
+  
+}
+@media screen and (max-width: 360px) {
+  #portImg {
+    width: 15rem;
+    height: 15rem;
+  }
+  #textBox {
+    width: 15rem;
+  }
+  #desc{
+    width: 15rem;
+  }
+
+  
 }

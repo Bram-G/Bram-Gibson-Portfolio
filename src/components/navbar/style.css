@@ -42,3 +42,45 @@
 #items{
   display: flex;
 }
+
+#header{
+  width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #header-item {
+    margin: 0 1rem 0 1rem;
+  }
+  #name {
+    font-size: 2rem;
+  }
+  #navbar {
+    height: 5rem;
+  }
+}
+
+@media  screen and (max-width: 590px) {
+  #header-item {
+    margin: 0 1rem 0 1rem;
+    font-size: .8rem;
+  }
+  #name {
+    font-size: 1.5rem;
+  }
+  
+}
+@media screen and (max-width: 400px) {
+  #header-item {
+    margin: 0 .5rem 0 .5rem;
+    font-size: 0.8rem;
+  }
+  #name {
+    font-size: 1.0rem;
+  }
+}
+  

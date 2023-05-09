@@ -42,3 +42,62 @@
   .formButton{
     margin-top: 1.7rem;
   }
+
+  @media screen and (max-width: 992px) {
+    #contactContainer {
+      justify-content: center;
+      margin-top: 0px;
+    }
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    #contactCon {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #contactImg {
+        display: flex;
+        height: 20rem;
+        margin: 50px 50px 50px 50px;
+      }
+      #contactImgStyle {
+        display: flex;
+        justify-content: center;
+      }
+      #contactTextBox {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 100%;
+        justify-content: center;
+      }
+      #contactTitle {
+        display: flex;
+        font-family: "Ubuntu";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.8rem;
+        line-height: 100%;
+      }
+      #contactContainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+      }
+      #contactSubTitle{
+        display: flex;
+        width: 50%;
+        display: inline-block;
+      }
+      #form{
+        line-height: .5rem;
+      }
+      .formButton{
+        margin-top: 1.7rem;
+      }
+    
+  }

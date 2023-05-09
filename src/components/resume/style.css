@@ -35,3 +35,21 @@
 .btn-primary{
     background-color: #3c579b !important;
 }
+
+@media screen and (max-width: 768px) {
+  #resumeCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #resumePic{
+    height: 20rem;
+    margin: 50px;
+  }
+  #resumeContainer{
+    margin: 0px;
+    
+  }
+  
+}

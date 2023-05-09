@@ -24,3 +24,12 @@
     color: aliceblue;
     opacity: 1;
 }
+
+@media screen and (max-width: 500px) {
+    #icons{
+        height: 35px;
+        width: 35px;
+        margin: 25px;
+    }
+    
+}
