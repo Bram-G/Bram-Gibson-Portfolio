@@ -47,7 +47,7 @@ const AboutMe = () => {
         <img id="image"  className="stack me" src={me} alt="Me" />
         </div>
       </div>
-      <div>
+      <div id="textCon">
         <div id="text" className="top-box container">
           <p className="backgroundp">
             I’m Bram, a{" "}
@@ -59,7 +59,7 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="container">
-          <p id="textBottom">
+          {/* <p id="textBottom">
             During my bootcamp experience, I had the opportunity to learn and
             work with a variety of languages, frameworks, and tools including
             HTML, CSS, JavaScript, React, JQuery, Express.js, Node.js, and more.
@@ -68,7 +68,7 @@ const AboutMe = () => {
             crucial skills for any developer. I'm eager to take the skills and
             knowledge that I've gained and apply them to real-world projects.
             Feel free to reach out to me with any questions or inquiries!
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

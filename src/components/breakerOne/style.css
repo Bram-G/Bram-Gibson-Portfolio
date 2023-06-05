@@ -1,0 +1,16 @@
+.breakerOne {
+    background-color: #3C579B;
+    width: 100%;
+    height: 15rem;
+    margin: 5rem 0 5rem 0;
+}
+.iconImg{
+    height: 50px;
+    width: 50px;
+}
+#breakBoxOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
