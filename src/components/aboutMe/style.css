@@ -7,9 +7,7 @@ body {
   padding-top: 0px;
   margin-top: 0px;
 }
-.backgroundp{
-  background-color: #ffffff !important;
-}
+
 #header {
   margin: 0;
   padding: 0;
@@ -17,86 +15,6 @@ body {
 
 #mainContainer {
   display: flex;
-}
-
-.bigRectangle{
-  left: 60px;
-  bottom: 182px;
-  /* animation: bigRectangleMove 14s ease-in-out infinite; */
-  
-}
-@keyframes smallRectangleMove{
-  50%{
-    translate: 35px -30px;
-    /* scale: 1.05; */
-  }
-}
-.smallRectangle{
-  left: 60px;
-  bottom: 182px;
-  animation: smallRectangleMove 14s cubic-bezier(.5,0,.45,1.2) infinite;
-  animation-delay: 1s;
-}
-@keyframes smallRectangleTwoMove{
-  50%{
-    translate: 35px -30px;
-  }
-}
-@keyframes smallRectangleThreeMove{
-  50%{
-    translate: 35px -30px;
-  }
-}
-@keyframes smallRectangleFourMove{
-  50%{
-    translate: 35px -30px;
-  }
-}
-.bigRectangleTwo{
-  left: 93px;
-  bottom: 212px;
-  border-radius: 10px;
-  background-color: #3C579B;
-}
-.smallRectangleTwo{
-  left: 60px;
-  bottom: 182px;
-  animation: smallRectangleTwoMove 14s cubic-bezier(.5,0,.45,1.2) infinite;
-  animation-delay: 2s;
-}
-.smallRectangleThree{
-  left: 60px;
-  bottom: 182px;
-  animation: smallRectangleThreeMove 14s cubic-bezier(.5,0,.45,1.2) infinite;
-  animation-delay: 3s;
-}
-.smallRectangleFour{
-  left: 60px;
-  bottom: 182px;
-  animation: smallRectangleFourMove 14s cubic-bezier(.5,0,.45,1.2) infinite;
-  animation-delay: 4s
-}
-@keyframes meMove{
-  50%{
-    translate: 6px -6px;
-  }
-}
-.me{
-  left: 100px;
-  bottom: 220px;
-  /* animation: meMove 14s ease-in-out infinite; */
-  /* animation-delay: 1s; */
-}
-#imageBox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin-left: 7rem; */
-  width: 20rem;
-  height: 23rem;
-}
-.stack{
-  position: absolute;
 }
 #image {
   /* margin-left: 7rem; */
@@ -106,7 +24,7 @@ body {
 }
 #text {
   margin-left: 7rem;
-  margin-top: 3rem;
+  margin-top: 7rem;
   width: auto;
   font-family: "Ubuntu";
   font-style: normal;
@@ -114,10 +32,8 @@ body {
   font-size: 40px;
   line-height: 130%;
 }
-
-
-.move {
-  top: 10px;
+#spanBlue {
+  color: #3c579b;
 }
 #textBottom {
   font-size: 22px;
@@ -241,4 +157,3 @@ body {
   }
 }
   
-
