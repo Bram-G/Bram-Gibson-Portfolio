@@ -6,19 +6,19 @@ const Navbar = () => {
   return (
     <div id="header" className="navbar navbar-expand-lg">
       <div id="navbar" className="container-fluid">
-        <Link id="name" className="nav-item" to="/">
+        <a id="name" className="nav-item" href="#mainContainer">
           Bram Gibson
-        </Link>
+        </a>
         <div id="items">
-          <Link id="header-item" className="nav-item" to="/portfolio">
+          <a id="header-item" className="nav-item" href="#portfolio">
             Portfolio
-          </Link>
-          <Link id="header-item" className="nav-item" to="/contact">
+          </a>
+          <a id="header-item" className="nav-item" href="#contactCon">
             Contact
-          </Link>
-          <Link id="header-item" className="nav-item" to="/resume">
+          </a>
+          <a id="header-item" className="nav-item" href="#resumeCon">
             Resume
-          </Link>
+          </a>
         </div>
       </div>
     </div>

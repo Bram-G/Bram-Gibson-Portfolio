@@ -30,7 +30,9 @@
 }
 #resumeContainer {
   display: flex;
+  justify-content: flex-end;
   margin-top: 4.5rem;
+  margin-right: 1rem;
 }
 .btn-primary{
     background-color: #3c579b !important;

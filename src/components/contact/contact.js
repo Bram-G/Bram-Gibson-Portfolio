@@ -2,10 +2,14 @@ import React from "react";
 import "./style.css";
 import contact from "./assets/contact.png";
 import BootstrapForm from "./Form";
+import sphere1 from "./assets/sphere1.png";
 
 const Contact = () => {
   return (
     <div id="contactCon">
+      <div id="sphereBox">
+      <img id= "sphere1"src={sphere1}></img>
+      </div>
       <div className=" row container">
         <div id="contactImgStyle" className="col">
           <img id="contactImg" src={contact} alt="contact logo"></img>
