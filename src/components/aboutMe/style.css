@@ -15,102 +15,118 @@ body {
 
 #mainContainer {
   display: flex;
-  height: 30rem;
 }
-#textCon{
+#textCon {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin-left: 7rem;
+  /* width: 50rem; */
 }
-.bigRectangle{
-  left: 60px;
-  bottom: 182px;
-  /* animation: bigRectangleMove 14s ease-in-out infinite; */
-  
-}
-@keyframes smallRectangleMove{
-  50%{
+
+@keyframes smallRectangleMove {
+  50% {
     translate: 35px -30px;
     /* scale: 1.05; */
   }
 }
-.smallRectangle{
-  left: 60px;
-  bottom: 182px;
-  animation: smallRectangleMove 14s cubic-bezier(.5,0,.45,1.2) infinite;
-  animation-delay: 1s;
-}
-@keyframes smallRectangleTwoMove{
-  50%{
+@keyframes smallRectangleTwoMove {
+  50% {
     translate: 35px -30px;
   }
 }
-@keyframes smallRectangleThreeMove{
-  50%{
+@keyframes smallRectangleThreeMove {
+  50% {
     translate: 35px -30px;
   }
 }
-@keyframes smallRectangleFourMove{
-  50%{
+@keyframes smallRectangleFourMove {
+  50% {
     translate: 35px -30px;
   }
 }
-.bigRectangleTwo{
-  left: 93px;
-  bottom: 212px;
-  border-radius: 10px;
-  background-color: #3C579B;
-}
-.smallRectangleTwo{
-  left: 60px;
-  bottom: 182px;
-  animation: smallRectangleTwoMove 14s cubic-bezier(.5,0,.45,1.2) infinite;
-  animation-delay: 2s;
-}
-.smallRectangleThree{
-  left: 60px;
-  bottom: 182px;
-  animation: smallRectangleThreeMove 14s cubic-bezier(.5,0,.45,1.2) infinite;
-  animation-delay: 3s;
-}
-.smallRectangleFour{
-  left: 60px;
-  bottom: 182px;
-  animation: smallRectangleFourMove 14s cubic-bezier(.5,0,.45,1.2) infinite;
-  animation-delay: 4s
-}
-@keyframes meMove{
-  50%{
+@keyframes meMove {
+  50% {
     translate: 6px -6px;
   }
 }
-.me{
-  left: 100px;
-  bottom: 220px;
-  /* animation: meMove 14s ease-in-out infinite; */
-  /* animation-delay: 1s; */
+.me {
+  translate: 40px -37px;
+}
+.bigRectangleTwo {
+  translate: 35px -30px;
+  border-radius: 10px;
+  background-color: #3c579b;
+}
+.smallRectangle {
+  animation: smallRectangleMove 14s cubic-bezier(0.5, 0, 0.45, 1.2) infinite;
+  animation-delay: 1s;
+}
+.smallRectangleTwo {
+  animation: smallRectangleTwoMove 14s cubic-bezier(0.5, 0, 0.45, 1.2) infinite;
+  animation-delay: 2s;
+}
+.smallRectangleThree {
+  animation: smallRectangleThreeMove 14s cubic-bezier(0.5, 0, 0.45, 1.2)
+    infinite;
+  animation-delay: 3s;
+}
+.smallRectangleFour {
+  animation: smallRectangleFourMove 14s cubic-bezier(0.5, 0, 0.45, 1.2) infinite;
+  animation-delay: 4s;
+}
+
+#bottom {
+  display: flex;
+  margin-top: 20px;
+}
+@keyframes cylinderMove {
+  50% {
+    translate: -2.5rem 1rem;
+  }
+}
+@keyframes slabMove {
+  50% {
+    translate: 1px -10px;
+  }
+}
+#cylinder1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  height: 20rem;
+  translate: -2rem 0;
+  rotate: 20deg;
+  animation: cylinderMove 14s ease-in-out infinite;
+}
+#slab1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  height: 20rem;
+  left: 80rem;
+  animation: slabMove 14s ease-in-out infinite;
 }
 #imageBox {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin-left: 7rem; */
+  position: relative;
   width: 20rem;
   height: 23rem;
+  left: -40px;
 }
-.stack{
+.stack {
   position: absolute;
 }
 #image {
-  /* margin-left: 7rem; */
-  margin-top: 7rem;
+  margin-left: 7rem;
+  margin-top: 6.4rem;
   width: 20rem;
   height: 23rem;
 }
 #text {
-  margin-left: 7rem;
+  margin-left: 3rem;
   margin-top: 3rem;
-  width: auto;
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 700;
@@ -118,20 +134,21 @@ body {
   line-height: 130%;
 }
 
-
 .move {
   top: 10px;
 }
-#textBottom {
-  font-size: 22px;
-  margin-left: 7rem;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  width: auto;
-  line-height: 183.5%;
+.bottomContainer {
+  display: flex;
+  align-items: center;
 }
-@media screen and (max-width:1500){
+#textBottom {
+  display: flex;
+  font-size: 22px;
+  margin-left: 3rem;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+@media screen and (max-width:1400){
   #mainContainer{
     width: 800px;
     display: flex;
@@ -153,8 +170,12 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  #image {
+  #textCon{
     margin-left: 0rem;
+
+  }
+  #image {
+    margin-left: 1rem;
     margin-top: 4rem;
     width: 20rem;
     height: 23rem;
@@ -162,7 +183,7 @@ body {
   #text {
     margin-left: 0rem;
     margin-top: 4rem;
-    width: 55rem;
+    /* width: 55rem; */
     font-family: "Ubuntu";
     font-style: normal;
     font-weight: 700;
@@ -187,7 +208,7 @@ body {
     align-items: center;
   }
   #image {
-    margin-left: 0rem;
+    margin-left: 1rem;
     margin-top: 4rem;
     width: 20rem;
     height: 23rem;
@@ -199,17 +220,22 @@ body {
     font-family: "Ubuntu";
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 130%;
   }
   #textBottom {
-    font-size: 22px;
+    font-size: 16px;
     margin-left: 0rem;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     line-height: 183.5%;
   }
+  .move{
+    font-size: 30px !important;
+    top: 4px ;
+  }
+
 }
 @media screen and (max-width: 400px) {
   #mainContainer {
@@ -219,10 +245,10 @@ body {
     align-items: center;
   }
   #image {
-    margin-left: 0rem;
+    margin-left: 2.7rem;
     margin-top: 4rem;
-    width: 20rem;
-    height: 23rem;
+    width: 17rem;
+    height: 20rem;
   }
   #text {
     width: 300px;
@@ -231,16 +257,20 @@ body {
     font-family: "Ubuntu";
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 20px;
     line-height: 130%;
   }
   #textBottom {
-    font-size: 22px;
+    font-size: 13px;
     margin-left: 0rem;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     line-height: 183.5%;
+  }
+  .move{
+    font-size: 20px !important;
+    top: 4px ;
   }
 }
   

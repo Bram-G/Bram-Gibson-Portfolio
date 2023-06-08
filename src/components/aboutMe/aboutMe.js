@@ -20,7 +20,7 @@ const AboutMe = () => {
 }}
 `;
   const AnimatedGradientText = styled.h1`
-  position: relative;
+    position: relative;
     overflow: hidden;
     font-weight: 700;
     font-size: 40px;
@@ -36,39 +36,75 @@ const AboutMe = () => {
 
   return (
     <div id="mainContainer" className="container">
-      <div className="col">
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      </style>
+      <div className="">
         <div id="imageBox">
-        <img id="image" className="stack bigRectangle" src={bigRectangle} alt="Me" />
-        <img id="image" className="stack bigRectangleTwo" src={bigRectangle} alt="Me" />
-        <img id="image" className="stack smallRectangle" src={smallRectangle} alt="Me" />
-        <img id="image" className="stack smallRectangleTwo" src={smallRectangle} alt="Me" />
-        <img id="image" className="stack smallRectangleThree" src={smallRectangle} alt="Me" />
-        <img id="image" className="stack smallRectangleFour" src={smallRectangle} alt="Me" />
-        <img id="image"  className="stack me" src={me} alt="Me" />
+          <img
+            id="image"
+            className="stack bigRectangle"
+            src={bigRectangle}
+            alt="Me"
+          />
+          <img
+            id="image"
+            className="stack bigRectangleTwo"
+            src={bigRectangle}
+            alt="Me"
+          />
+          <img
+            id="image"
+            className="stack smallRectangle"
+            src={smallRectangle}
+            alt="Me"
+          />
+          <img
+            id="image"
+            className="stack smallRectangleTwo"
+            src={smallRectangle}
+            alt="Me"
+          />
+          <img
+            id="image"
+            className="stack smallRectangleThree"
+            src={smallRectangle}
+            alt="Me"
+          />
+          <img
+            id="image"
+            className="stack smallRectangleFour"
+            src={smallRectangle}
+            alt="Me"
+          />
+          <img id="image" className="stack me" src={me} alt="Me" />
         </div>
       </div>
       <div id="textCon">
-        <div id="text" className="top-box container">
-          <p className="backgroundp">
+        <div id="text" className="topBox">
+          <div className="backgroundp">
             I’m Bram, a{" "}
             <AnimatedGradientText className="move">
               FullStack Web Developer{" "}
             </AnimatedGradientText>{" "}
             that recently graduated from the University of Washington's Coding
             Bootcamp.
-          </p>
+          </div>
         </div>
-        <div className="container">
-          {/* <p id="textBottom">
-            During my bootcamp experience, I had the opportunity to learn and
-            work with a variety of languages, frameworks, and tools including
-            HTML, CSS, JavaScript, React, JQuery, Express.js, Node.js, and more.
-            I also gained experience in agile development methodologies and
-            collaborative project management, both of which I believe are
-            crucial skills for any developer. I'm eager to take the skills and
-            knowledge that I've gained and apply them to real-world projects.
-            Feel free to reach out to me with any questions or inquiries!
-          </p> */}
+        <div className="bottomContainer">
+          <div id="bottom">
+            <p id="textBottom">
+              During my bootcamp experience, I had the opportunity to learn and
+              work with a variety of languages, frameworks, and tools including
+              HTML, CSS, JavaScript, React, JQuery, Express.js, Node.js, and
+              more. I also gained experience in agile development methodologies
+              and collaborative project management, both of which I believe are
+              crucial skills for any developer. I'm eager to take the skills and
+              knowledge that I've gained and apply them to real-world projects.
+              Feel free to reach out to me with any questions or inquiries!
+            </p>
+          </div>
         </div>
       </div>
     </div>

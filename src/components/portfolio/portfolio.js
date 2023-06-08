@@ -67,7 +67,7 @@ const Portfolio = () => {
 
     ]
   return (
-    <div className="portPage">
+    <div className="portPage" id="portfolio">
     <div id="portDiv" className="row">
         {portfolioArr.map((project) =>(
           <PortCard

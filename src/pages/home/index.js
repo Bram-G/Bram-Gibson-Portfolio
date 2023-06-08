@@ -3,9 +3,8 @@ import "./style.css";
 import Portfolio from "../../components/portfolio/portfolio";
 import AboutMe from "../../components/aboutMe/aboutMe";
 import Contact from "../../components/contact/contact";
+import Resume from "../../components/resume/resume";
 import BreakerOne from "../../components/breakerOne/breakerOne";
-import BreakerTwo from "../../components/breakerTwo/breakerTwo";
-
 
 function Home() {
 return (
@@ -14,8 +13,8 @@ return (
     <AboutMe/>
     <BreakerOne/>
     <Portfolio/>
-    <BreakerTwo/>
     <Contact/>
+    <Resume/>
     
     </div>
 )
