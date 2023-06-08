@@ -17,39 +17,39 @@ function BreakerOne() {
       <img id="cube1" src={cube1}></img>
       <div id="breakBoxOne">
         <div className="iconBox">
-          <img className="iconImg" src={javascript}></img>
+          <img className="iconImg" src={javascript} alt="JavaScript"></img>
           <div className="iconText">JavaScript</div>
         </div>
         <div className="iconBox">
-          <img className="iconImg" src={react}></img>
+          <img className="iconImg" src={react} alt="React"></img>
           <div className="iconText">React</div>
         </div>
         <div className="iconBox">
-          <img className="iconImg" src={html}></img>
+          <img className="iconImg" src={html} alt="HTML"></img>
           <div className="iconText">HTML</div>
         </div>
         <div className="iconBox">
-          <img className="iconImg" src={css3}></img>
+          <img className="iconImg" src={css3} alt="CSS"></img>
           <div className="iconText">CSS</div>
         </div>
         <div className="iconBox">
-          <img className="iconImg" src={nodejs}></img>
+          <img className="iconImg" src={nodejs} alt="NodeJS"></img>
           <div className="iconText">NodeJS</div>
         </div>
         <div className="iconBox">
-          <img className="iconImg" src={jquery}></img>
+          <img className="iconImg" src={jquery} alt="JQuery"></img>
           <div className="iconText">JQuery</div>
         </div>
         <div className="iconBox">
-          <img className="iconImg" src={mysql}></img>
+          <img className="iconImg" src={mysql} alt="MySQL"></img>
           <div className="iconText">MySQL</div>
         </div>
         <div className="iconBox">
-          <img className="iconImg" src={mongodb}></img>
+          <img className="iconImg" src={mongodb} alt="MongoDB"></img>
           <div className="iconText">MongoDB</div>
         </div>
         <div className="iconBox">
-          <img className="iconImg" src={github}></img>
+          <img className="iconImg" src={github} alt="Git"></img>
           <div className="iconText">Git</div>
         </div>
       </div>
