@@ -1,5 +1,4 @@
-import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom"
-import AboutMe from "./components/aboutMe/aboutMe";
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import Navbar from "./components/navbar/navbar";
 import Footer from "./components/footer/footer";
 import Portfolio from "./components/portfolio/portfolio"

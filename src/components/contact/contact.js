@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div id="contactCon">
       <div id="sphereBox">
-      <img id= "sphere1"src={sphere1}></img>
+      <img id= "sphere1"src={sphere1} alt=""></img>
       </div>
       <div className=" row container">
         <div id="contactImgStyle" className="col">

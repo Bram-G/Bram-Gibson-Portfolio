@@ -14,7 +14,7 @@ import react from "./assets/react.svg";
 function BreakerOne() {
   return (
     <div className="breakerOne">
-      <img id="cube1" src={cube1}></img>
+      <img id="cube1" src={cube1} alt=""></img>
       <div id="breakBoxOne">
         <div className="iconBox">
           <img className="iconImg" src={javascript} alt="JavaScript"></img>
