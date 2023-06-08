@@ -7,9 +7,7 @@ const Resume = () => {
   return (
     <div id="resumeCon">
       <div className="row container">
-        <div id="resumePicStyle" className="col">
-          <img id="resumePic" src={resumePic} alt="resume logo"></img>
-        </div>
+
         <div id="resumeContainer" className="col">
           <div id="resumeTextBox row-8">
             <p id="resumeTitle">Download My Resume</p>
@@ -18,6 +16,9 @@ const Resume = () => {
             <button type="button" className="btn btn-lg btn-primary">Download</button>
           </a>
           </div>
+        </div>
+                <div id="resumePicStyle" className="col">
+          <img id="resumePic" src={resumePic} alt="resume logo"></img>
         </div>
       </div>
     </div>
