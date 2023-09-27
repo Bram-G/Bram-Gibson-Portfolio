@@ -25,7 +25,7 @@ const Portfolio = () => {
             webLink:"https://boardgamebutler.netlify.app",
             gitLink:"http://www.github.com/Bram-G/BGB",
             src: BGB,
-            desc: "FullStack application centered around board games and an AI assitant. Import your collection from Board Game Geek, and find new games to play with your friends.",
+            desc: "FullStack application centered around board games and an AI assitant. Import your collection from Board Game Geek, and find new games to play with your friends. Login with username: TestUser password: password",
             languages:"JavaScript, React, AI, MongoDB, "
 
         }, 
