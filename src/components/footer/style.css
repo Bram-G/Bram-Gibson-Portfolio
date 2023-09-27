@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
 }
-.footer{
-    margin: 15px;
+.footer{    
+    background-color: #F6F8FF;
     display: flex;
     justify-content:center;
     align-items: center;
+    height: 150px;
+    align-items: flex-end;
 }
 #icons{
     height: 45px;
@@ -29,7 +31,7 @@
     #icons{
         height: 35px;
         width: 35px;
-        margin: 25px;
+        margin: 20px;
     }
     
 }

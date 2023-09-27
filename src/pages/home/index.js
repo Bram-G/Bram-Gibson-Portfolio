@@ -3,18 +3,16 @@ import "./style.css";
 import Portfolio from "../../components/portfolio/portfolio";
 import AboutMe from "../../components/aboutMe/aboutMe";
 import Contact from "../../components/contact/contact";
-import Resume from "../../components/resume/resume";
 import BreakerOne from "../../components/breakerOne/breakerOne";
 
 function Home() {
 return (
-    <div>
+    <div className="background">
 
     <AboutMe/>
     <BreakerOne/>
     <Portfolio/>
     <Contact/>
-    <Resume/>
     
     </div>
 )

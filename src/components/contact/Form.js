@@ -32,7 +32,9 @@ function BootstrapForm() {
   };
   return (
     <Form id="form" onSubmit={onSubmit}>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
+      <div id="topInfo">
+
+      <Form.Group className="smallInput" controlId="formBasicEmail">
         <Form.Label>Name</Form.Label>
         <Form.Control
           name="from_name"
@@ -42,7 +44,7 @@ function BootstrapForm() {
           placeholder="Enter Name"
         />
       </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
+      <Form.Group className="smallInput" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control
           name="from_email"
@@ -50,11 +52,13 @@ function BootstrapForm() {
           onChange={handleChange}
           type="email"
           placeholder="Enter Email"
-        />
+          />
       </Form.Group>
+          </div>
       <Form.Label>Message</Form.Label>
       <Form.Group>
         <Form.Control
+          id="messageInput"
           name="message"
           value={toSend.message}
           onChange={handleChange}
@@ -63,7 +67,7 @@ function BootstrapForm() {
           placeholder="Message"
         />
       </Form.Group>
-      <Button className="formButton" variant="primary" type="submit">
+      <Button className="formButton" type="submit">
         Submit
       </Button>
     </Form>

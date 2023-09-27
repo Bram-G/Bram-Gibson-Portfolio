@@ -15,123 +15,51 @@ body {
 
 #mainContainer {
   display: flex;
+  width: 80%;
+  height: 680px;
+  align-items: center;
+}
+.container{
+  max-width: 80% !important;
 }
 #textCon {
   display: flex;
   flex-direction: column;
-  margin-left: 7rem;
-  /* width: 50rem; */
-}
-
-@keyframes smallRectangleMove {
-  50% {
-    translate: 35px -30px;
-    /* scale: 1.05; */
-  }
-}
-@keyframes smallRectangleTwoMove {
-  50% {
-    translate: 35px -30px;
-  }
-}
-@keyframes smallRectangleThreeMove {
-  50% {
-    translate: 35px -30px;
-  }
-}
-@keyframes smallRectangleFourMove {
-  50% {
-    translate: 35px -30px;
-  }
-}
-@keyframes meMove {
-  50% {
-    translate: 6px -6px;
-  }
-}
-.me {
-  translate: 40px -37px;
-}
-.bigRectangleTwo {
-  translate: 35px -30px;
-  border-radius: 10px;
-  background-color: #3c579b;
-}
-.smallRectangle {
-  animation: smallRectangleMove 14s cubic-bezier(0.5, 0, 0.45, 1.2) infinite;
-  animation-delay: 1s;
-}
-.smallRectangleTwo {
-  animation: smallRectangleTwoMove 14s cubic-bezier(0.5, 0, 0.45, 1.2) infinite;
-  animation-delay: 2s;
-}
-.smallRectangleThree {
-  animation: smallRectangleThreeMove 14s cubic-bezier(0.5, 0, 0.45, 1.2)
-    infinite;
-  animation-delay: 3s;
-}
-.smallRectangleFour {
-  animation: smallRectangleFourMove 14s cubic-bezier(0.5, 0, 0.45, 1.2) infinite;
-  animation-delay: 4s;
+  width: 70%;
 }
 
 #bottom {
   display: flex;
   margin-top: 20px;
 }
-@keyframes cylinderMove {
-  50% {
-    translate: -2.5rem 1rem;
-  }
-}
-@keyframes slabMove {
-  50% {
-    translate: 1px -10px;
-  }
-}
-#cylinder1 {
-  position: absolute;
+.aboutImageContainer{
   display: flex;
-  align-items: center;
-  width: 20rem;
-  height: 20rem;
-  translate: -2rem 0;
-  rotate: 20deg;
-  animation: cylinderMove 14s ease-in-out infinite;
-}
-#slab1 {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  width: 20rem;
-  height: 20rem;
-  left: 80rem;
-  animation: slabMove 14s ease-in-out infinite;
+  /* position: relative; */
+  width: 50%;
+  
 }
 #imageBox {
   display: flex;
-  position: relative;
-  width: 20rem;
-  height: 23rem;
-  left: -40px;
+  align-items: center;
+  justify-content: center;
+  height: 497px;
+  width: 497px;
+  border-radius: 597px;
+  animation: gradientAnimation 5s linear infinite alternate;
+  background: radial-gradient(circle, rgba(224,233,255,1) 100%, rgba(71,105,191,1) 100%);
 }
-.stack {
-  position: absolute;
-}
+
 #image {
-  margin-left: 7rem;
-  margin-top: 6.4rem;
-  width: 20rem;
-  height: 23rem;
+  width: 430px;
+  height: 430px;
 }
 #text {
-  margin-left: 3rem;
-  margin-top: 3rem;
-  font-family: "Ubuntu";
+  color: #3e454b;
+  font-family: Ubuntu;
+  font-size: 42px;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 130%;
+  line-height: 150%;
 }
 
 .move {
@@ -143,14 +71,68 @@ body {
 }
 #textBottom {
   display: flex;
-  font-size: 22px;
-  margin-left: 3rem;
-  font-family: "Roboto";
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 183.5%
 }
-@media screen and (max-width:1400){
+
+@media screen and (max-width: 1600px) {
+  #mainContainer {
+  }
+
+  #image {
+    height: 400px;
+    width: 400px;
+  }
+  #imageBox{
+    height: 467px;
+    width: 467px;
+  }
+  .move{
+    font-size: 38px !important;
+    margin-top: 0 !important;
+  }
+  #text {
+    margin-left: 0rem;
+    margin-top: 4rem;
+    /* width: 55rem; */
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 130%;
+  }
+  #textBottom {
+    font-size: 20px;
+    margin-left: 0rem;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    width: auto;
+    line-height: 183.5%;
+  }
+}
+@media screen and (max-width:1300px) {
+  .aboutImageContainer{
+    width: auto;
+  }
+  #image {
+    height: 380px;
+    width: 380px;
+  }
+  #textCon{
+    width: 90%;
+    align-items: center;
+  }
+  #imageBox{
+    height: 447px;
+    width: 447px;
+  }
   #mainContainer{
-    width: 800px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -158,28 +140,9 @@ body {
   #textBottom{
     width: 800px;
   }
-  #text{
-    width: 800px;
-  }
   
 }
 @media screen and (max-width: 1000px) {
-  #mainContainer {
-    width: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  #textCon{
-    margin-left: 0rem;
-
-  }
-  #image {
-    margin-left: 1rem;
-    margin-top: 4rem;
-    width: 20rem;
-    height: 23rem;
-  }
   #text {
     margin-left: 0rem;
     margin-top: 4rem;
@@ -189,6 +152,18 @@ body {
     font-weight: 700;
     font-size: 40px;
     line-height: 130%;
+  }
+  .move{
+    font-size: 40px !important;
+    top: 6px ;
+  }
+  #image {
+    height: 350px;
+    width: 350px;
+  }
+  #imageBox{
+    height: 417px;
+    width: 417px;
   }
   #textBottom {
     font-size: 22px;
@@ -200,28 +175,35 @@ body {
     line-height: 183.5%;
   }
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 700px) {
   #mainContainer {
-    width: 400px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   #image {
-    margin-left: 1rem;
-    margin-top: 4rem;
-    width: 20rem;
-    height: 23rem;
+    height: 310px;
+    width: 310px;
+  }
+  .topBox{
+    margin-top:30px !important;
+  }
+  #imageBox{
+    height: 377px;
+    width: 377px;
   }
   #text {
-    width: 400px;
     margin-left: 0rem;
     margin-top: 4rem;
     font-family: "Ubuntu";
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 130%;
+  }
+  .move{
+    font-size: 26px !important;
   }
   #textBottom {
     font-size: 16px;
@@ -231,34 +213,24 @@ body {
     font-weight: 400;
     line-height: 183.5%;
   }
-  .move{
-    font-size: 30px !important;
-    top: 4px ;
-  }
 
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   #mainContainer {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
   }
   #image {
-    margin-left: 2.7rem;
-    margin-top: 4rem;
-    width: 17rem;
-    height: 20rem;
+    height: 240px;
+    width: 240px;
+  }
+  #imageBox{
+    height: 290px;
+    width: 290px;
   }
   #text {
-    width: 300px;
-    margin-left: 0rem;
-    margin-top: 4rem;
-    font-family: "Ubuntu";
-    font-style: normal;
-    font-weight: 700;
+
     font-size: 20px;
-    line-height: 130%;
+
   }
   #textBottom {
     font-size: 13px;
@@ -270,7 +242,7 @@ body {
   }
   .move{
     font-size: 20px !important;
-    top: 4px ;
+    top: 5px !important; ;
   }
 }
   

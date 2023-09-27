@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import resumePic from "./assets/resume.png";
-import resume from "./assets/Resume.pdf"
+// import resume from "./assets/Resume.pdf"
 
 const Resume = () => {
   return (
@@ -12,9 +12,9 @@ const Resume = () => {
           <div id="resumeTextBox row-8">
             <p id="resumeTitle">Download My Resume</p>
             <p id="resumeTextBox">Use the button below to download my resume!</p>
-            <a href={resume} download>
+            {/* <a href={resume} download> */}
             <button type="button" className="btn btn-lg btn-primary">Download</button>
-          </a>
+          {/* </a> */}
           </div>
         </div>
                 <div id="resumePicStyle" className="col">
