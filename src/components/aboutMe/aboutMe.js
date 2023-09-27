@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import me from "./assets/AboutMe.png";
+import me from "./assets/aboutMe.png";
 
 import styled, { keyframes } from "styled-components";
 
