@@ -13,10 +13,10 @@ export default function PortCard(props) {
           <div id="titleBox">
             <h1 id="title">{props.title}</h1>
             <div id="linkBox">
-              <a target="_blank" href={props.gitLink} className="icons">
+              <a target="_blank" rel="noreferrer" href={props.gitLink} className="icons">
                 <UilGithub size={30} color="#464646" />
               </a>
-              <a target="_blank" href={props.webLink} className="icons">
+              <a target="_blank" rel="noreferrer" href={props.webLink} className="icons">
                 <UilGlobe size={30} color="#464646" />
               </a>
             </div>

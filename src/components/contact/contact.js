@@ -1,9 +1,6 @@
 import React from "react";
 import "./style.css";
-import contact from "./assets/contact.png";
 import BootstrapForm from "./Form";
-import sphere1 from "./assets/sphere1.png";
-import texture from "./assets/texture.png";
 
 const Contact = () => {
   return (
