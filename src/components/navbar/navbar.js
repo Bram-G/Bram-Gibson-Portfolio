@@ -8,14 +8,14 @@ const Navbar = () => {
       <div id="navbar" className="alignMe">
         <div id="navbarCon">
 
-        <a id="name" className="nav-item" href="#mainContainer">
+        <a id="name" className="nav-item" href="https://bramgibson.dev/">
           BG
         </a>
         <div id="items">
           <a id="header-item" className="nav-item" href="#portfolio">
             Portfolio
           </a>
-          <a id="header-item" className="nav-item" href="#contactCon">
+          <a id="header-item" className="nav-item" href="#contact">
             Contact
           </a>
         </div>

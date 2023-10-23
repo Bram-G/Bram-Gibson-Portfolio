@@ -5,7 +5,9 @@
   margin-top: 2rem;
   overflow: hidden;
   height: 700px;
-
+}
+#contact {
+  width: 100%;
 }
 .contactBox {
   width: 80%;

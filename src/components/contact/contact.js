@@ -4,6 +4,8 @@ import BootstrapForm from "./Form";
 
 const Contact = () => {
   return (
+    <div id="contact">
+
     <div id="contactCon">
       <div className="contactBox">
         {/* <img id="texture" src={texture} alt="texture"></img> */}
@@ -19,6 +21,7 @@ const Contact = () => {
         </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
